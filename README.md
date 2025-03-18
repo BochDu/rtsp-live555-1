@@ -1,1 +1,2 @@
-# rtsp-live555-1
+# RTSP服务器
+C++与live555库实现
