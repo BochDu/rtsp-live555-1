@@ -14,6 +14,7 @@ live555MediaServer
 
 # 配置文件和缓存
 config.*
+!config.linux-64bit
 .cache/
 
 # 其他可能的临时或编译相关目录
