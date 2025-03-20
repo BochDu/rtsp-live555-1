@@ -1,0 +1,22 @@
+# 编译生成的文件和目录
+*.o
+*.a
+*.so
+*.dll
+*.exe
+*.out
+live555MediaServer
+
+# 临时文件和日志
+*.log
+*.tmp
+*.swp
+
+# 配置文件和缓存
+config.*
+.cache/
+
+# 其他可能的临时或编译相关目录
+obj/
+bin/
+lib/
