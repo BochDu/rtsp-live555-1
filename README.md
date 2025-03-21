@@ -3,8 +3,19 @@ C++与live555库实现
 
 ## 项目目录
 
-- `live`:live555源码
-- `resources`:测试视频资源
+- `build`: 编译目录
+- `live`: live555源码
+- `resources`: 测试视频资源
+- `rtsp`: RTSP程序
+
+## 代码运行
+
+```
+cd build
+cmake ..
+make
+./rtsp_server
+```
 
 ## 软件下载
 [VLC播放器下载](https://www.videolan.org/vlc/index.zh_CN.html)
@@ -28,11 +39,3 @@ cd ./live/testProgs
 ```
 - 在`/live/testProgs/`目录放入视频文件`test.264`，仓库已经`resources`复制该文件
 - 可执行文件会读`test.264`启动视频流，在`VLC播放器`选择`媒体`,`打开网络串流`播放器输入IP播放
-
-## 程序运行
-
-```
-cd build
-cmake ..
-make
-```
