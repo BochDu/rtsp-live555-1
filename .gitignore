@@ -16,6 +16,7 @@ live555MediaServer
 config.*
 !config.linux-64bit
 .cache/
+build/
 
 # 其他可能的临时或编译相关目录
 obj/
