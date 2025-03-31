@@ -55,4 +55,5 @@ RTSP全称实时流协议（Real Time Streaming Protocol）它是一个网络控
 
 ## live555库知识
 
+[live555流程参考](https://blog.csdn.net/hey5178/article/details/142629215)
 
